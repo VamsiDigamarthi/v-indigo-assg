@@ -1,0 +1,115 @@
+.thanking-customers-section {
+  background-color: #d0b2001a;
+}
+.thanking-customers-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.thanking-customers-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.form-card {
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 35px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: blue;
+  box-shadow: 2px 2px 5px;
+}
+
+.form-button {
+  background-color: #2e357d;
+  width: 100%;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.flex-values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .flex-values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+  }
+}
+
+.all-icon-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: red;
+  margin-right: 15px;
+  box-shadow: 2px 2px 5px;
+  border-radius: 6px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .button-2 {
+    height: 45px;
+  }
+}
+
+.button-1 {
+  background-color: #e8b372;
+  border-style: none;
+  border-radius: 6px;
+  color: #ffffff;
+  height: 45px;
+  margin-right: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button-2 {
+  background-color: #c7bbc3;
+  border-style: none;
+  border-radius: 6px;
+  color: #ffffff;
+  height: 55px;
+  padding: 5px;
+}

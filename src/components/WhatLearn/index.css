@@ -1,0 +1,42 @@
+.what-main-main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+}
+
+.what-ul-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .what-ul-main {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.what-ul-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ul-dark {
+  background-color: #e8b372;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px;
+}

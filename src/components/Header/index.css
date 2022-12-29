@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #2e357d;
+  height: 20%;
+}
+
+.hamb-icon {
+  color: #ffffff;
+}
+.hamb-para {
+  color: #ffffff;
+}
+
+.all-link-color {
+  color: #ffffff;
+}
+
+.all-link-color:hover {
+  text-decoration: underline;
+  color: antiquewhite;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center-items {
+  text-align: center;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

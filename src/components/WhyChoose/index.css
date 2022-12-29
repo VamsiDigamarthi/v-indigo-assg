@@ -1,0 +1,119 @@
+.why-card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 15px;
+}
+
+.why-card-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .why-card-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.why-inner-element {
+  background-color: #d0b2001a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 6px;
+  padding: 15px;
+  min-height: 260px;
+
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .why-inner-element {
+    margin-left: 10px;
+    max-width: 30%;
+  }
+}
+
+.why-icons {
+  width: 55px;
+  height: 55px;
+  color: #eda880;
+}
+
+.why-heading {
+  margin-top: 0px 15px;
+  color: #eda880;
+}
+
+.why-down-card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.why-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 97%;
+}
+
+@media (min-width: 768px) {
+  .why-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.another-iconss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.another-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-icon-grids {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: red;
+  margin-right: 15px;
+  box-shadow: 2px 2px 5px;
+  border-radius: 6px;
+  margin-left: 10px;
+  padding-left: 0px 15px;
+  min-width: 210px;
+  padding: 15px 5px;
+}
+
+@media (min-width: 768px) {
+  .all-icon-grids {
+    min-width: 260px;
+  }
+}
